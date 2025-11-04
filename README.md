@@ -1,18 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hero Section — Design → Code
 
-## Getting Started
+This repository contains a single, focused UI: a hero section design created in Figma and converted into a small Next.js + TypeScript project skeleton. The goal of this README is to explain the design, how to run the project locally, and — importantly — give concrete, practical guidance for implementing and experimenting with mesh gradients (the soft, multi-color background often used behind hero content).
 
-First, run the development server:
+Figma design
 
-```bash
+- Link: https://www.figma.com/design/XmCQaLEbtSh8x3qSXffGZF/Hero-Section-Design?node-id=0-1&t=LT7Fjxmb1nEAwloB-1
+
+What this repo is
+
+- A minimal hero section project (no extra app pages). The design was created in Figma and the code mirrors that design.
+- Focus: translate the visual into clean components, accessible markup, and a performant animated mesh gradient background.
+- Files of interest:
+  - `app/page.tsx` — top-level Next.js page (hero rendered here)
+  - `components/navbar.tsx` — navbar component
+  - `components/mobile-menu.tsx` — mobile menu
+  - `components/hero/hero-content.tsx` — the Hero content (heading, CTA, copy)
+  - `components/animated-mesh-background.tsx` — background/mesh gradient animation
+  - `components/hero/hero-social-proof.tsx`, `partner-logos.tsx` — supporting UI
+  - `ui/*` — small UI primitives (button, avatar, card, sheet)
+  - `public/` — images, logos, avatars
+
+Tech stack
+
+- Next.js (app router) + TypeScript
+- CSS via `app/globals.css` and component-level styles (plain CSS or CSS modules). PostCSS configured in the project (see `postcss.config.mjs`).
+
+Quick start (Windows PowerShell)
+
+```powershell
+# install
+npm install
+
+# run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# build
+npm run build
+
+# start production preview
+npm run start
 ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
