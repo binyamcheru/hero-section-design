@@ -18,7 +18,7 @@ export default function HeroSection() {
           </div>
 
           {/* Right illustration */}
-          <div className="w-full max-w-lg justify-center lg:justify-end mx-auto hidden md:flex">
+          <div className="w-full max-w-lg justify-center lg:justify-end mx-auto hidden lg:flex">
             <Image
               src="/images/freelancer-world.png"
               alt="Freelancer payment world map"

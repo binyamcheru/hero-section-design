@@ -24,21 +24,22 @@ export default function HeroContent() {
 
       {/* CTA Buttons */}
       <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-        <Button className="bg-[#3D8BFF] hover:bg-[#3D8BFF]/90 text-white rounded-full px-8 py-5 text-base">
-          Get Paid Instantly
+        <Button className="flex items-center justify-center bg-[#3D8BFF] hover:bg-[#3D8BFF]/90 text-white rounded-full px-8 py-5 text-base font-medium transition-all duration-300">
+          <span>Get Paid Instantly</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
+            width="22"
+            height="22"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="ml-1 inline"
+            className="ml-2"
           >
-            <path d="m9 18 6-6-6-6" />
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
           </svg>
         </Button>
 
