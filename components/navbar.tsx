@@ -12,10 +12,10 @@ export const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "For Freelancers", href: "/freelancers" },
-    { name: "Resources", href: "/resources" },
-    { name: "Contact", href: "/contact" },
+    { name: "Pricing", href: "#" },
+    { name: "For Freelancers", href: "#" },
+    { name: "Resources", href: "#" },
+    { name: "Contact", href: "#" },
   ];
 
   return (
@@ -43,10 +43,10 @@ export const Navbar = () => {
 
         {/* Right: Buttons */}
         <div className="flex items-center space-x-2 sm:space-x-3">
-          <NavButton href="/login" variant="ghost">
+          <NavButton href="#" variant="ghost">
             Login
           </NavButton>
-          <NavButton href="/get-started" variant="primary" icon>
+          <NavButton href="#" variant="primary" icon>
             Get Started
           </NavButton>
         </div>

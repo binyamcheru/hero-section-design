@@ -48,7 +48,7 @@ export default function AnimatedMeshBackground() {
       </svg>
 
       {/* Gradient circles */}
-      <div className="gradients-container w-full h-full filter-[url(#goo)] blur-2xl">
+      <div className="gradients-container w-full min-h-full filter-[url(#goo)] blur-2xl">
         <div className="g1"></div>
         <div className="g2"></div>
         <div className="g3"></div>
