@@ -4,7 +4,7 @@ This repository contains a single, focused UI: a hero section design created in 
 
 Figma design
 
-- Link: https://www.figma.com/design/XmCQaLEbtSh8x3qSXffGZF/Hero-Section-Design?node-id=0-1&t=LT7Fjxmb1nEAwloB-1
+- Link: https://www.figma.com/design/XmCQaLEbtSh8x3qSXffGZF/Hero-Section-Design?node-id=0-1&t=2DPU4eAynmMotisV-1
 
 What this repo is
 
